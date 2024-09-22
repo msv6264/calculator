@@ -94,20 +94,24 @@ body {
 
 /* Specific Button Styles */
 .plus {
-    background-color: gold;
+    background-color: gold !important;
     grid-row: span 2;
 }
 
 .per, .div, .mul, .sub, .plus, .dot, .equal {
-    background-color: gold;
+    background-color: gold !important;
+}
+
+.equal {
+    background-color: rgb(0, 213, 255) !important;
 }
 
 .clear, .cross {
-    background-color: rgb(239, 34, 143);
+    background-color: rgb(239, 34, 143) !important;
 }
 
 .clear:hover, .cross:hover {
-    background-color: rgb(219, 14, 123);
+    background-color: rgb(219, 14, 123) !important;
 }
 
 /* Responsive Design */
